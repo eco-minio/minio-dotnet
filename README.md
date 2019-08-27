@@ -1,6 +1,6 @@
 # MinIO Client SDK for .NET  [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Build status](https://ci.appveyor.com/api/projects/status/tvdpoypdmbuwg0me/branch/master?svg=true)](https://ci.appveyor.com/project/Harshavardhana/minio-dotnet/branch/master)
 
-MinIO Client SDK provides higher level APIs for MinIO and Amazon S3 compatible cloud storage services.For a complete list of APIs and examples, please take a look at the [Dotnet Client API Reference](https://docs.min.io/docs/dotnet-client-api-reference).This document assumes that you have a working VisualStudio development environment.
+MinIO Client SDK provides higher level APIs for MinIO and Amazon S3 compatible cloud storage services. For a complete list of APIs and examples, please take a look at the [Dotnet Client API Reference](https://docs.min.io/docs/dotnet-client-api-reference).This document assumes that you have a working VisualStudio development environment.
 
 ## Minimum Requirements
  * .NET 4.5.2, .NetStandard 2.0 or higher
@@ -132,7 +132,7 @@ $ ./mono_install.sh
 $ git clone https://github.com/minio/minio-dotnet && cd minio-dotnet
 ```
 
-* Enter your credentials and bucket name, object name etc. in Minio.Examples/Program.cs
+* Enter your credentials, bucket name, object name, etc. in `Minio.Examples/Program.cs`.
   Uncomment the example test cases such as below in Program.cs to run an example.
 ```cs
   //Cases.MakeBucket.Run(minioClient, bucketName).Wait();
